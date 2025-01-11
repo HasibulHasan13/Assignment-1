@@ -370,17 +370,27 @@
 }
 
 /* Yunus -p */
+
 .quote-container {
     margin-top: 32px;
     padding: 46px 23px;
     background-color: #FFFFFF;
     border-radius: 24px;
+    /* Add this property */
+    background-origin: content-box; 
 }
 
+.bg{
+    background-image: url('/Milestone-1/Assignment-1/assets/quote-bg.png');
+    background-repeat: no-repeat;
+    background-position: top left;
+}
 .quote {
     font-size: 15px;
     color: #0E0E0E;
     opacity: 80%;
+    position: relative; 
+    padding-top: 25px;
 }
 
 .author {
