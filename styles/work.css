@@ -99,6 +99,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    pointer-events: none;
 }
 
 .box-content {
@@ -107,6 +108,7 @@
 
 .box1 {
     background-color: rgba(84, 144, 245, 0.2);
+    
 }
 
 .box2 {
@@ -127,6 +129,7 @@
     padding: 10px 19px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .learn-more-G {
@@ -139,6 +142,7 @@
     padding: 10px 19px;
     border-radius: 8px;
     border: none;
+    cursor: pointer;
 }
 
 .learn-more-M {
@@ -152,6 +156,11 @@
     border-radius: 8px;
     border: none;
     cursor: pointer;
+}
+.learn-more-D,
+.learn-more-G,
+.learn-more-M {
+    pointer-events: auto; 
 }
 
 /* news.css */
@@ -410,3 +419,4 @@
     opacity: 60%;
     font-size: 15px;
 }
+/* Md. Hasibul Hasan */
