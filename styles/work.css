@@ -223,3 +223,61 @@
     border-radius: 8px;
     border: none;
 }
+/* Donate section */
+.Donate{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 80px 0px 80px 0px;
+}
+.top-content h2{
+    font-size: 38px;
+    color: #0E0E0E;
+    font-weight: bold;
+}
+.top-content p{
+    margin-top: -5px;
+    font-size: 15px;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+}
+.donate-box{
+    display: flex;
+    justify-content: center;
+    gap: 23px;
+}
+.d-box-1{
+    background-color: #FFFFFF;
+    color: #0E0E0E;
+    opacity: 80%;
+    font-weight: bold;
+    border-radius: 16px;
+}
+.d-box-1 h2{
+    margin: 0px;
+    font-size: 35px;
+    padding: 38px;
+}
+.d-box-1:hover {
+    background-color: #C6E4D6;
+    cursor: pointer;
+}
+.size{
+    padding: 20px 400px 20px 400px;
+    border: rgba(14, 14, 14, 0.15);
+}
+.text-center{
+    text-align: center;
+}
+.donate-read-more{
+    margin-top: 25px;
+    background-color: #006A50;
+    font-weight: 800;
+    font-size: 14px;
+    color: #FFFFFF;
+    opacity: 100%;
+    padding: 16px 32px;
+    border-radius: 8px;
+    border: none;
+}
