@@ -60,7 +60,7 @@
 
 /* Vision of Future Section */
 .vision-future {
-    margin: 100px 0px 100px 0px;
+    margin: 100px 0px 50px 0px;
 }
 
 .vision-future h1 {
@@ -191,9 +191,11 @@
     width: 390px;
     height: 293px;
     margin-top: 6px;
+    
+}
+.wtf{
     border-radius: 24px;
 }
-
 .news-content {
     max-width: 714px;
 }
@@ -279,7 +281,6 @@
     border-top: none;
     border-left: none;
     border-right: none;
-    color: rgba(14, 14, 14, 0.3);
 }
 
 .d-box-1 h2 {
@@ -354,9 +355,8 @@
     flex-grow: 1;
     padding: 17px 38px;
     border: none;
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 8px 0px 0px 8px;
     outline: none;
-    color: rgba(14, 14, 14, 0.3);
 }
 
 .subscribe-button {
@@ -364,12 +364,15 @@
     color: white;
     padding: 17px 38px;
     border: none;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
     cursor: pointer;
 }
 
 /* Yunus -p */
+.yunus{
+    margin: 0px 0px 80px 0px;
+}
 
 .quote-container {
     margin-top: 32px;
