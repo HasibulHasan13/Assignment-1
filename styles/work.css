@@ -381,7 +381,7 @@
 }
 
 .bg{
-    background-image: url('./assets/quote-bg.png');
+    background-image: url('https://raw.githubusercontent.com/HasibulHasan13/Assignment-1/refs/heads/main/assets/quote-bg.png');
     background-repeat: no-repeat;
     background-position: top left;
 }
